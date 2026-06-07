@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { FaBars, FaXmark, FaBrain } from "react-icons/fa6";
+import {
+  FaPlaneDeparture,
+  FaGlobe,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 const links = [
   { name: "Home", path: "/" },
