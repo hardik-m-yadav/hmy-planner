@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #070b16;
+  font-family: Inter, system-ui, sans-serif;
+}
